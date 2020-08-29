@@ -1,31 +1,87 @@
-<button mat-button>Basic</button>
-<button mat-button color="primary">Primary</button>
-<button mat-button color="accent">Accent</button>
-<button mat-button color="warn">Warn</button>
-<button mat-button disabled>Disabled</button>
-<a mat-button href="https://www.google.com/" target="_blank">Link</a>
+<div>
+  <span [matBadge]="notificationCount" [matBadgeHidden]="notificationCount==0" matBadgeOverlap="false">Notification</span>
+</div>
+<div>
+  <span matBadge="100" matBadgePosition="below before">Notification</span>
+</div>
+<div>
+  <span matBadge="100" matBadgePosition="below after">Notification</span>
+</div>
+<div>
+  <span matBadge="100" matBadgePosition="above before">Notification</span>
+</div>
 
+<div>
+  <span matBadge="100" matBadgeSize="small">Notification</span>
+</div>
+<div>
+  <span matBadge="100" matBadgeSize="medium">Notification</span>
+</div>
+<div>
+  <span matBadge="100" matBadgeSize="large">Notification</span>
+</div>
+
+
+<div>
+  <mat-icon color="primary">3d_rotation</mat-icon>
+</div>
+<div>
+  <mat-button-toggle-group #toggleGroup="matButtonToggleGroup" multiple>
+    <mat-button-toggle value="angular">Angular</mat-button-toggle>
+    <mat-button-toggle value="react">React</mat-button-toggle>
+    <mat-button-toggle value="vue">Vue</mat-button-toggle>
+  </mat-button-toggle-group>
+    {{toggleGroup.value}}
+</div>
+<div>
+  <mat-button-toggle #toggleBtn>Toggle</mat-button-toggle>
+  {{toggleBtn.checked}}
+</div>
+
+<div>
+  <button mat-button>mat-button</button>
+  <button mat-raised-button>Click me!</button>
+  <button mat-flat-button>mat-flat-button</button>
+  <button mat-stroked-button>mat-stroked-button</button>
+<div>
+
+<div>
+  <button mat-icon-button>Click Me</button>
+  <button mat-fab>Click Me</button>
+  <button mat-mini-fab>Click Me</button>
+</div>
+
+<div>
+  <button color="primary" mat-button>Click me!</button>
+  <button color="accent" mat-button>Click me!</button>
+  <button color="warn" mat-button disableRipple>Click me!</button>
+</div>
+<div>
+  <button color="primary" mat-raised-button>Click me!</button>
+  <button color="accent" mat-raised-button>Click me!</button>
+  <button color="warn" mat-raised-button>Click me!</button>
+</div>
 Username textbox
 Password textbox
 Login button
 
 <div class="mat-display-4">This is display 3</div>
-<div class="mat-display-3">This is display 3</div> 
-<div class="mat-display-2">This is display 2</div> 
-<div class="mat-display-1">This is display 1</div> 
+<div class="mat-display-3">This is display 3</div>
+<div class="mat-display-2">This is display 2</div>
+<div class="mat-display-1">This is display 1</div>
 
-<div class="mat-headline">This is a heading for h1</div> 
-<div class="mat-title">This is a heading for h2</div> 
-<div class="mat-subheading-2">This is a heading for h3</div> 
-<div class="mat-subheading-1">This is a heading for h4</div> 
+<div class="mat-headline">This is a heading for h1</div>
+<div class="mat-title">This is a heading for h2</div>
+<div class="mat-subheading-2">This is a heading for h3</div>
+<div class="mat-subheading-1">This is a heading for h4</div>
 
 <div class="mat-typography">
-  <h1>This is a heading for h1</h1> 
-  <h2>This is a heading for h1</h2> 
+  <h1>This is a heading for h1</h1>
+  <h2>This is a heading for h1</h2>
   <h3>This is a  heading for h1</h3>
   <h4>This is a  heading for h1</h4>
-</div> 
+</div>
 
-<div class="mat-body-1">This is body text</div> 
-<div class="mat-body-2">This is bold body text</div> 
-<div class="mat-caption">This is caption text<div> 
+<div class="mat-body-1">This is body text</div>
+<div class="mat-body-2">This is bold body text</div>
+<div class="mat-caption">This is caption text<div>
