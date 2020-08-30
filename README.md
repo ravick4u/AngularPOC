@@ -10,3 +10,4 @@ This is my angular POC project
 - Menu and Navigation
 - List
 - Grid
+- Accordion and Expansion Panel

@@ -7,7 +7,8 @@ import { MaterialModule } from './material/material.module';
 import { LeftNavigationComponent } from './left-navigation/left-navigation.component';
 import { AppmenuComponent } from './appmenu/appmenu.component';
 import { ApplistComponent } from './applist/applist.component';
-import { AppgridComponent } from './appgrid/appgrid.component'
+import { AppgridComponent } from './appgrid/appgrid.component';
+import { AppexpansionComponent } from './appexpansion/appexpansion.component'
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { AppgridComponent } from './appgrid/appgrid.component'
     LeftNavigationComponent,
     AppmenuComponent,
     ApplistComponent,
-    AppgridComponent
+    AppgridComponent,
+    AppexpansionComponent
   ],
   imports: [
     BrowserModule,
