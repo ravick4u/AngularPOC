@@ -8,3 +8,4 @@ This is my angular POC project
 - Badge, Icons and Toggle
 - Navbar and progressbar
 - Menu and Navigation
+- List
