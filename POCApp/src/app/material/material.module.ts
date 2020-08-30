@@ -10,7 +10,10 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatListModule} from '@angular/material/list';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatGridListModule} from '@angular/material/grid-list';
-import {MatExpansionModule} from '@angular/material/expansion'
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatCardModule} from '@angular/material/card';
+import {MatTabsModule} from '@angular/material/tabs';
+
 const MaterialComponents = [
   MatButtonModule,
   MatButtonToggleModule,
@@ -23,7 +26,9 @@ const MaterialComponents = [
   MatListModule,
   MatDividerModule,
   MatGridListModule,
-  MatExpansionModule];
+  MatExpansionModule,
+  MatCardModule,
+  MatTabsModule];
 
 @NgModule({
   imports: [MaterialComponents],

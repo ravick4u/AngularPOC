@@ -11,3 +11,4 @@ This is my angular POC project
 - List
 - Grid
 - Accordion and Expansion Panel
+- Tabs and Card

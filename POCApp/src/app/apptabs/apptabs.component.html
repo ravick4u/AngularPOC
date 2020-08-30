@@ -1,0 +1,12 @@
+<mat-tab-group
+  #tabRef
+  (selectedIndexChange)="tabSelectedIndexChange(tabRef.selectedIndexChange)"
+  >
+
+  <mat-tab label="Angular">Angular Content</mat-tab>
+  <mat-tab label="React">React Content</mat-tab>
+  <mat-tab label="Vue">Vue Content</mat-tab>
+
+</mat-tab-group>
+
+{{tabRef.selectedIndex}}

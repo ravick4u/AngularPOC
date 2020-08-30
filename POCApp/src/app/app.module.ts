@@ -8,7 +8,9 @@ import { LeftNavigationComponent } from './left-navigation/left-navigation.compo
 import { AppmenuComponent } from './appmenu/appmenu.component';
 import { ApplistComponent } from './applist/applist.component';
 import { AppgridComponent } from './appgrid/appgrid.component';
-import { AppexpansionComponent } from './appexpansion/appexpansion.component'
+import { AppexpansionComponent } from './appexpansion/appexpansion.component';
+import { AppcardsComponent } from './appcards/appcards.component';
+import { ApptabsComponent } from './apptabs/apptabs.component'
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { AppexpansionComponent } from './appexpansion/appexpansion.component'
     AppmenuComponent,
     ApplistComponent,
     AppgridComponent,
-    AppexpansionComponent
+    AppexpansionComponent,
+    AppcardsComponent,
+    ApptabsComponent
   ],
   imports: [
     BrowserModule,
