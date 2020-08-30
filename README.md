@@ -6,3 +6,4 @@ This is my angular POC project
 - Created module for Angular modules so that we can easily import it
 - Some Typography examples
 - Badge, Icons and Toggle
+- Navbar and progressbar

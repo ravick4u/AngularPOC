@@ -1,3 +1,15 @@
+<mat-toolbar color="primary" class="navbar">
+  <span>Angular POC</span>
+  <div>
+    <span>Home</span>
+    <span>About</span>
+    <span>Contact Us</span>
+  </div>
+</mat-toolbar>
+
+<mat-progress-spinner value="25"></mat-progress-spinner>
+<mat-spinner *ngIf="showSpinner"></mat-spinner>
+<button mat-button (click)="showData()">Load Data</button>
 <div>
   <span [matBadge]="notificationCount" [matBadgeHidden]="notificationCount==0" matBadgeOverlap="false">Notification</span>
 </div>
