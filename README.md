@@ -12,3 +12,4 @@ This is my angular POC project
 - Grid
 - Accordion and Expansion Panel
 - Tabs and Card
+- Vertical and Horizontal Stepper

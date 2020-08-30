@@ -1,0 +1,32 @@
+<p>appstepper works!</p>
+<mat-horizontal-stepper linear>
+  <mat-step label="Shipping Address" completed="false">
+    Shipping Address
+    <div>
+      <button mat-button matStepperNext>Next</button>
+      <button mat-button matStepperPrevious>Back</button>
+    </div>
+  </mat-step>
+  <mat-step label="Billing Address" completed="false">
+    Billing Address
+  </mat-step>
+  <mat-step label="Placcing Order" completed="false">
+    Placcing Order
+  </mat-step>
+</mat-horizontal-stepper>
+
+<mat-vertical-stepper linear>
+  <mat-step label="Shipping Address" completed="true">
+    Shipping Address
+    <div>
+      <button mat-button matStepperNext>Next</button>
+      <button mat-button matStepperPrevious>Back</button>
+    </div>
+  </mat-step>
+  <mat-step label="Billing Address" completed="false">
+    Billing Address
+  </mat-step>
+  <mat-step label="Placcing Order" completed="false">
+    Placcing Order
+  </mat-step>
+</mat-vertical-stepper>

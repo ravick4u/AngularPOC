@@ -10,7 +10,8 @@ import { ApplistComponent } from './applist/applist.component';
 import { AppgridComponent } from './appgrid/appgrid.component';
 import { AppexpansionComponent } from './appexpansion/appexpansion.component';
 import { AppcardsComponent } from './appcards/appcards.component';
-import { ApptabsComponent } from './apptabs/apptabs.component'
+import { ApptabsComponent } from './apptabs/apptabs.component';
+import { AppstepperComponent } from './appstepper/appstepper.component'
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ApptabsComponent } from './apptabs/apptabs.component'
     AppgridComponent,
     AppexpansionComponent,
     AppcardsComponent,
-    ApptabsComponent
+    ApptabsComponent,
+    AppstepperComponent
   ],
   imports: [
     BrowserModule,
