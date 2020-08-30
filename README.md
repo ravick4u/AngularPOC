@@ -9,3 +9,4 @@ This is my angular POC project
 - Navbar and progressbar
 - Menu and Navigation
 - List
+- Grid
