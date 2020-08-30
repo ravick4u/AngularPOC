@@ -1,0 +1,9 @@
+<mat-sidenav-container>
+  <mat-sidenav #sidenav mode="side" (opened)="logMessage('open')" (closed)="logMessage('close')">Left Navigation</mat-sidenav>
+  <mat-sidenav-container>Container
+    <button (click)="opened = !opened">Show/Hide Nav</button>
+    <button mat-button (click)="sidenav.open()">Open</button>
+    <button mat-button (click)="sidenav.close()">Close</button>
+    <button mat-button (click)="sidenav.toggle()">Toggle</button>
+  </mat-sidenav-container>
+</mat-sidenav-container>

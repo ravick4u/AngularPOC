@@ -7,3 +7,4 @@ This is my angular POC project
 - Some Typography examples
 - Badge, Icons and Toggle
 - Navbar and progressbar
+- Menu and Navigation
