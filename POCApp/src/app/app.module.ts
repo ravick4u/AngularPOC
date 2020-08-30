@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -13,7 +14,8 @@ import { AppcardsComponent } from './appcards/appcards.component';
 import { ApptabsComponent } from './apptabs/apptabs.component';
 import { AppstepperComponent } from './appstepper/appstepper.component';
 import { InputComponent } from './input/input.component';
-import { SelectComponent } from './select/select.component'
+import { SelectComponent } from './select/select.component';
+import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 
 @NgModule({
   declarations: [
@@ -27,11 +29,14 @@ import { SelectComponent } from './select/select.component'
     ApptabsComponent,
     AppstepperComponent,
     InputComponent,
-    SelectComponent
+    SelectComponent,
+    AutocompleteComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    FormsModule,
+    ReactiveFormsModule,
     MaterialModule
   ],
   providers: [],
