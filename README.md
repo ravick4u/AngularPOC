@@ -13,3 +13,4 @@ This is my angular POC project
 - Accordion and Expansion Panel
 - Tabs and Card
 - Vertical and Horizontal Stepper
+- Input and Select

@@ -11,7 +11,9 @@ import { AppgridComponent } from './appgrid/appgrid.component';
 import { AppexpansionComponent } from './appexpansion/appexpansion.component';
 import { AppcardsComponent } from './appcards/appcards.component';
 import { ApptabsComponent } from './apptabs/apptabs.component';
-import { AppstepperComponent } from './appstepper/appstepper.component'
+import { AppstepperComponent } from './appstepper/appstepper.component';
+import { InputComponent } from './input/input.component';
+import { SelectComponent } from './select/select.component'
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { AppstepperComponent } from './appstepper/appstepper.component'
     AppexpansionComponent,
     AppcardsComponent,
     ApptabsComponent,
-    AppstepperComponent
+    AppstepperComponent,
+    InputComponent,
+    SelectComponent
   ],
   imports: [
     BrowserModule,
