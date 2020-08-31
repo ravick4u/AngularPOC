@@ -19,3 +19,4 @@ This is angular POC project
 - Datepicker
 - Tooltip
 - Snakebar
+- Dialog
