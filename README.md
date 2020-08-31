@@ -20,3 +20,4 @@ This is angular POC project
 - Tooltip
 - Snakebar
 - Dialog
+- Table

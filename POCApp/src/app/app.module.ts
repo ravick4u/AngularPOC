@@ -22,6 +22,7 @@ import { TooltipComponent } from './tooltip/tooltip.component';
 import { SnakebarComponent } from './snakebar/snakebar.component';
 import { DialogComponent } from './dialog/dialog.component';
 import { DialoginputComponent } from './dialoginput/dialoginput.component';
+import { DatatableComponent } from './datatable/datatable.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { DialoginputComponent } from './dialoginput/dialoginput.component';
     TooltipComponent,
     SnakebarComponent,
     DialogComponent,
-    DialoginputComponent
+    DialoginputComponent,
+    DatatableComponent
   ],
   imports: [
     BrowserModule,
