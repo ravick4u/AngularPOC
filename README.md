@@ -15,3 +15,4 @@ This is angular POC project
 - Vertical and Horizontal Stepper
 - Input and Select
 - Autocomplete
+- Checkbox and Radio

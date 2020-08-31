@@ -16,6 +16,7 @@ import { AppstepperComponent } from './appstepper/appstepper.component';
 import { InputComponent } from './input/input.component';
 import { SelectComponent } from './select/select.component';
 import { AutocompleteComponent } from './autocomplete/autocomplete.component';
+import { AppcheckboxComponent } from './appcheckbox/appcheckbox.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { AutocompleteComponent } from './autocomplete/autocomplete.component';
     AppstepperComponent,
     InputComponent,
     SelectComponent,
-    AutocompleteComponent
+    AutocompleteComponent,
+    AppcheckboxComponent
   ],
   imports: [
     BrowserModule,
