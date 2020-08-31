@@ -16,3 +16,6 @@ This is angular POC project
 - Input and Select
 - Autocomplete
 - Checkbox and Radio
+- Datepicker
+- Tooltip
+- Snakebar

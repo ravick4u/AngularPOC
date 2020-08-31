@@ -17,6 +17,9 @@ import { InputComponent } from './input/input.component';
 import { SelectComponent } from './select/select.component';
 import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 import { AppcheckboxComponent } from './appcheckbox/appcheckbox.component';
+import { DatepickerComponent } from './datepicker/datepicker.component';
+import { TooltipComponent } from './tooltip/tooltip.component';
+import { SnakebarComponent } from './snakebar/snakebar.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +35,10 @@ import { AppcheckboxComponent } from './appcheckbox/appcheckbox.component';
     InputComponent,
     SelectComponent,
     AutocompleteComponent,
-    AppcheckboxComponent
+    AppcheckboxComponent,
+    DatepickerComponent,
+    TooltipComponent,
+    SnakebarComponent
   ],
   imports: [
     BrowserModule,
