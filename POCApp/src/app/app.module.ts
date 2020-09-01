@@ -23,6 +23,7 @@ import { SnakebarComponent } from './snakebar/snakebar.component';
 import { DialogComponent } from './dialog/dialog.component';
 import { DialoginputComponent } from './dialoginput/dialoginput.component';
 import { DatatableComponent } from './datatable/datatable.component';
+import { ScrollingComponent } from './scrolling/scrolling.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { DatatableComponent } from './datatable/datatable.component';
     SnakebarComponent,
     DialogComponent,
     DialoginputComponent,
-    DatatableComponent
+    DatatableComponent,
+    ScrollingComponent
   ],
   imports: [
     BrowserModule,
